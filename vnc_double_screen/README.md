@@ -6,8 +6,9 @@ Since my machine has a NVIDIA card that REALLY dislikes intel generated virtual 
 ## Usage
 
 Runninn the script without arguments returns the manual:
-`` 
+
+````
 ERROR! Missing input
 usage: ./vnclol.sh [vertical/horizontal] [below/right] [x_scale y_scale](optional)
 If no scaling selected the option 1.5x1.5 will be set, resulting in 1920x1200 resolution
-``
+````
