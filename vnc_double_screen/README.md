@@ -5,7 +5,7 @@ Since my machine has a NVIDIA card that REALLY dislikes intel generated virtual 
 
 ## Usage
 
-Runninn the script without arguments returns the manual:
+Running the script without arguments returns the manual:
 
 ````
 ERROR! Missing input
