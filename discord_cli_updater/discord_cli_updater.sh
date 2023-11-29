@@ -67,9 +67,14 @@ then
 
 fi
 
-if [ "${url_check:0:10}" == "HTTP/2 200" ]
+if [ "${url_check:0:10}" == "HTTP/2 200" ] && [ $first_start == 0 ]
 then
-    echo "Upgrading from version number 0.0.$num to 0.0.$num_check"
+    echo "Upgrading from version 0.0.$num to 0.0.$num_check"
+    # writes on file the last version number
+    echo $num_check > $lvs
+elif [ "${url_check:0:10}" == "HTTP/2 200" ] && [ $first_start == 1 ]
+then
+    echo "Installing version 0.0.$num_check"
     # writes on file the last version number
     echo $num_check > $lvs
 else
