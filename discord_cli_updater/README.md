@@ -9,5 +9,5 @@ The script stores the last version number on a `.txt` file. If it doesn't find o
 
 ## To-do
 
-[  ] Make it so that the script searches for version numbers above 0.0.xx (e.g. 0.1.0). This will not be useful for a long time, but might as well put it when i have the time
+- [ ] Make it so that the script searches for version numbers above 0.0.xx (e.g. 0.1.0). This will not be useful for a long time, but might as well put it when i have the time
 
